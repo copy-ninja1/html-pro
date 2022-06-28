@@ -1,0 +1,229 @@
+/* Shared styling for mobile and large screens */
+body {
+  background: #ffffff;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.navbar {
+  font-family: "Poppins", sans-serif;
+  width: 70%;
+}
+
+.nav-links > a {
+  text-decoration: none;
+  color: #454545;
+}
+
+.nav-button > button {
+  background: #0260e6;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  border-radius: 2rem;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1.25px;
+  padding: 0.625rem 1rem;
+  width: 7.313rem;
+  height: 2.5rem;
+  cursor: pointer;
+}
+
+.page-wrapper {
+  font-family: "Sofia Pro", sans-serif;
+}
+
+/* /// */
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 36px;
+  gap: 10px;
+  outline: none;
+  border: none;
+  border-radius: 18px;
+}
+
+.primary-btn {
+  background: radial-gradient(
+      255.8% 457.4% at 88.45% 24.64%,
+      #c27fcf 0%,
+      #0368ff 100%
+    )
+    /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  color: white;
+}
+
+.flex {
+  display: flex;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-spaceBetween {
+  justify-content: space-between;
+}
+.justify-spaceEvenly {
+  justify-content: space-evenly;
+}
+.items-center {
+  align-items: center;
+}
+.gap-10 {
+  gap: 10px;
+}
+
+.w-100 {
+  width: 100%;
+}
+.w-30 {
+  width: 30%;
+}
+.font-normal {
+  font-family: "League Spartan", sans-serif;
+  font-style: normal;
+}
+.header-text {
+  font-size: 56px;
+  line-height: 72px;
+  background: linear-gradient(180deg, #1b18f9 0%, #1b18f9 46.35%, #e146ad 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -moz-text-fill-color: transparent;
+  -o-text-fill-color: transparent;
+}
+.subheader {
+  font-size: 20px;
+  line-height: 34px;
+  color: #454545;
+}
+.font-700 {
+  font-weight: 700;
+}
+.font-600 {
+  font-weight: 600;
+}
+.font-500 {
+  font-weight: 500;
+}
+.font-300 {
+  font-weight: 300;
+}
+.p-4 {
+  padding: 4px;
+}
+.p-8 {
+  padding: 8px;
+}
+.p-12 {
+  padding: 12px;
+}
+.p-16 {
+  padding: 16px;
+}
+.px-12 {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.px-16 {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.px-24 {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.px-32 {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.pt-50 {
+  padding-top: 50px;
+}
+.position-relative {
+  position: relative;
+}
+.shark-in-water {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  transform: translateX(20%);
+  height: 95vh;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+}
+.footer-logo {
+  /* height: 60px; */
+}
+.corral {
+  position: absolute;
+  top: calc((-100vh + 70vh));
+  left: -7%;
+  width: 50%;
+}
+.crab {
+  position: absolute;
+  top: 10%;
+  left: 0%;
+  transform: translate(-60%,50%);
+}
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container-sm,
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container-xxl,
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 1320px;
+  }
+}
