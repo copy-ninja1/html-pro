@@ -49,7 +49,6 @@ typings/
 
 # Optional npm cache directory
 .npm
-.parcel-cache
 # Optional eslint cache
 .eslintcache
 
@@ -81,7 +80,7 @@ typings/
 # Nuxt.js build / generate output
 .nuxt
 dist
-
+.parcel-cache
 # Gatsby files
 .cache/
 # Comment in the public line in if your project uses Gatsby and *not* Next.js
