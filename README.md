@@ -1,5 +1,6 @@
 # This is a Html Example that demonstrates how to structure your code base without (vue.js,React or sevelt)
 
+![Alt text](./src/assets/images/demo-image.png?raw=true "Demo image")
 ## How to run
 
 - On dev
